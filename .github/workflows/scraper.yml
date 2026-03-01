@@ -1,0 +1,36 @@
+name: Auto Crime Data Scraper
+
+on:
+  # Run every 30 minutes
+  schedule:
+    - cron: '*/30 * * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Run crime scraper
+        env:
+          MONGO_URI: ${{ secrets.MONGO_URI }}
+        run: |
+          python auto_scraper.py
+      
+      - name: Scraping completed
+        run: |
+          echo "✅ Crime data scraping completed at $(date)"
