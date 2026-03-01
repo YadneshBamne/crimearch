@@ -210,7 +210,7 @@ export default function AuthPage({ onLogin }) {
               <Shield size={15} color="rgba(255,255,255,0.6)" />
             </div>
             <span style={{ fontSize: '16px', fontWeight: '700', color: '#e5e5e5' }}>CrimeArch</span>
-          </div> */
+          </div> */}
 
           {/* Header */}
           <div style={{ position: 'relative' }}>
