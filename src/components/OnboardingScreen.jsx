@@ -30,7 +30,7 @@ function OnboardingScreen({ onComplete, onSkip }) {
     {
       icon: Shield,
       iconColor: 'rgba(96,165,250,0.8)',
-      title: "Welcome to CrimePulse",
+      title: "Welcome to CrimeArch",
       subtitle: "Your intelligent crime monitoring platform",
       description: "Stay informed about crime patterns in your area with real-time data and insights. Access comprehensive analytics to make informed decisions for public safety.",
       features: ['Live Crime Updates', 'Interactive Maps', 'Smart Analytics']
@@ -125,7 +125,7 @@ function OnboardingScreen({ onComplete, onSkip }) {
             <Shield size={18} color="rgba(255,255,255,0.6)" />
           </div>
           <span style={{ fontSize: '17px', fontWeight: '700', color: '#e5e5e5', letterSpacing: '-0.02em' }}>
-            CrimePulse
+            CrimeArch
           </span>
         </div>
 
@@ -193,7 +193,7 @@ function OnboardingScreen({ onComplete, onSkip }) {
             }} />
           </div>
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-            <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.2)' }}>© 2026 CrimePulse</span>
+            <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.2)' }}>© 2026 CrimeArch</span>
             <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.25)' }}>
               {currentStep + 1} / {steps.length}
             </span>

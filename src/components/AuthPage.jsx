@@ -115,7 +115,7 @@ export default function AuthPage({ onLogin }) {
   const titles = { login: 'Welcome back', register: 'Create account', forgot: 'Reset password' }
   const subtitles = {
     login: 'Sign in to access crime analytics',
-    register: 'Get started with CrimePulse',
+    register: 'Get started with CrimeArch',
     forgot: "We'll send a reset link to your email",
   }
 
@@ -148,7 +148,7 @@ export default function AuthPage({ onLogin }) {
             <Shield size={18} color="rgba(255,255,255,0.6)" />
           </div>
           <span style={{ fontSize: '17px', fontWeight: '700', color: '#e5e5e5', letterSpacing: '-0.02em' }}>
-            CrimePulse
+            CrimeArch
           </span>
         </div>
 
@@ -186,7 +186,7 @@ export default function AuthPage({ onLogin }) {
 
         {/* Footer */}
         <div style={{ display: 'flex', justifyContent: 'space-between', position: 'relative' }}>
-          <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.2)' }}>© 2026 CrimePulse</span>
+          <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.2)' }}>© 2026 CrimeArch</span>
           <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.2)', cursor: 'pointer' }}>Privacy Policy</span>
         </div>
       </div>
@@ -209,8 +209,8 @@ export default function AuthPage({ onLogin }) {
             }}>
               <Shield size={15} color="rgba(255,255,255,0.6)" />
             </div>
-            <span style={{ fontSize: '16px', fontWeight: '700', color: '#e5e5e5' }}>CrimePulse</span>
-          </div> */}
+            <span style={{ fontSize: '16px', fontWeight: '700', color: '#e5e5e5' }}>CrimeArch</span>
+          </div> */
 
           {/* Header */}
           <div style={{ position: 'relative' }}>

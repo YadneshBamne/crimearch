@@ -45,7 +45,7 @@ function LandingPage() {
             <div className="flex items-center gap-3">
 
               <h1 className="text-2xl font-extrabold uppercase tracking-wider ">
-                CrimePulse
+                CrimeArch
               </h1>
             </div>
 

@@ -175,10 +175,10 @@ function ProfilePage({ user, onLogout, onResetOnboarding }) {
             >
               <Shield className="w-4 h-4" style={{ color: 'rgba(255,255,255,0.5)' }} />
             </div>
-            <h2 className="text-sm font-semibold" style={{ color: '#e5e5e5' }}>About CrimePulse</h2>
+            <h2 className="text-sm font-semibold" style={{ color: '#e5e5e5' }}>About CrimeArch</h2>
           </div>
           <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.35)', lineHeight: '1.7' }}>
-            CrimePulse provides real-time crime data visualization and analytics to help you stay informed about safety in your area.
+            CrimeArch provides real-time crime data visualization and analytics to help you stay informed about safety in your area.
             Access interactive maps, detailed analytics, and stay updated with the latest crime trends.
           </p>
         </div> */}

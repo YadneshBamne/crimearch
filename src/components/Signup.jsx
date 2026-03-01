@@ -69,7 +69,7 @@ function Signup({ onLogin }) {
   return (
     <div className="auth-container">
       <div className="auth-card">
-        <h2>Sign Up for CrimePulse</h2>
+        <h2>Sign Up for CrimeArch</h2>
         <p className="auth-subtitle">Create an account to access crime analytics</p>
         
         {error && <div className="error-message">{error}</div>}
